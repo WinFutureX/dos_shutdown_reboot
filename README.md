@@ -9,8 +9,8 @@ ml shutdown.asm /Fe shutdown.com
 ```
 Likewise, for NASM (requires NASM to be installed):
 ```
-nasm reboot.asm -f bin reboot.com
-nasm shutdown.asm -f bin shutdown.com
+nasm reboot.asm -f bin -o reboot.com
+nasm shutdown.asm -f bin -o shutdown.com
 ```
 ## Running
 These programs don't take any arguments. Simply run them on their own.

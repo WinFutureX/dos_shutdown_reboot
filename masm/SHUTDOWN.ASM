@@ -1,7 +1,7 @@
 .model  small
 .stack
 .data
-msg     db      "Unable to shut down.", "$", 0
+msg     db      "Unable to shut down.", 0Dh, 0Ah, "$", 0
 .code
 main    proc
         mov     ax, 05300h	; apm check

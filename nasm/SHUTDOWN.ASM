@@ -27,4 +27,4 @@ unsupported:
 	mov     ax, 0x4C00
 	int     0x21
 msg:
-	db      "Unable to shut down.", "$", 0
+	db      "Unable to shut down.", 0xD, 0xA, "$", 0
